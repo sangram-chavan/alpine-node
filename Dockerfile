@@ -20,6 +20,8 @@ VOLUME ["/opt/src"]
 
 COPY docker-entrypoint.sh /usr/local/bin/
 
+RUN chmod 777 /usr/local/bin/docker-entrypoint.sh
+
 EXPOSE 3000
 
 ENTRYPOINT ["docker-entrypoint.sh"]
