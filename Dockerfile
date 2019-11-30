@@ -8,7 +8,7 @@ LABEL   maintainer="Sangram Chavan <schavan@outlook.com>" \
 ENV LANG="en_US.UTF-8" \
     LC_ALL="en_US.UTF-8" \
     LANGUAGE="en_US.UTF-8" \
-    NODE_ENV="production" \
+#   NODE_ENV="production" \
     NPM_CONFIG_PREFIX="/root/.npm-global" \
     PATH="$PATH:/root/.npm-global/bin"
 
