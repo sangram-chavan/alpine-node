@@ -11,4 +11,3 @@ docker run -it --rm -v "$(pwd):/opt/src" -v "$HOME/.npm-global:/root/.npm-global
 https://github.com/yeoman/yo/issues/348
 
 sed -i -e '/rootCheck/d' "${NPM_CONFIG_PREFIX}/lib/node_modules/yo/lib/cli.js"
-
