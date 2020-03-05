@@ -54,3 +54,5 @@ VOLUME ["/opt/src", "/root/.npm-global"]
 ENTRYPOINT ["docker-entrypoint.sh"]
 
 WORKDIR /opt/src
+
+CMD ["/sbin/start_runit"]
